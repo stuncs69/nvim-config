@@ -21,6 +21,7 @@ vim.cmd([[
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'powerline/powerline-fonts'
     Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+    Plug 'm4xshen/autoclose.nvim'
     
     Plug 'kyoz/purify', { 'rtp': 'vim' }
     Plug 'neovim/nvim-lspconfig'

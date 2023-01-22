@@ -1,7 +1,2 @@
+require("autoclose").setup({})
 vim.api.nvim_set_keymap("n", "<C-n>", ":NERDTreeToggle<CR>", {silent = true})
-vim.api.nvim_buf_set_keymap(0, "i", "{", "{}<Esc>ha", {noremap = true})
-vim.api.nvim_buf_set_keymap(0, "i", "(", "()<Esc>ha", {noremap = true})
-vim.api.nvim_buf_set_keymap(0, "i", "[", "[]<Esc>ha", {noremap = true})
-vim.api.nvim_buf_set_keymap(0, "i", '"', '""<Esc>ha', {noremap = true})
-vim.api.nvim_buf_set_keymap(0, "i", "'", "''<Esc>ha", {noremap = true})
-vim.api.nvim_buf_set_keymap(0, "i", "`", "``<Esc>ha", {noremap = true})
