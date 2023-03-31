@@ -16,13 +16,16 @@ vim.cmd([[
       Plug 'roxma/vim-hug-neovim-rpc'
     endif
     Plug 'andweeb/presence.nvim'
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'preservim/nerdtree'
     Plug 'nvim-lualine/lualine.nvim'
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'powerline/powerline-fonts'
     Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
     Plug 'm4xshen/autoclose.nvim'
-    
+    Plug 'ryanoasis/vim-devicons'
+    Plug 'jacoborus/tender.vim'
+
     Plug 'kyoz/purify', { 'rtp': 'vim' }
     Plug 'neovim/nvim-lspconfig'
     Plug 'scrooloose/nerdtree'
