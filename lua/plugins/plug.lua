@@ -19,6 +19,7 @@ vim.cmd([[
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'preservim/nerdtree'
     Plug 'nvim-lualine/lualine.nvim'
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'powerline/powerline-fonts'
     Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
